@@ -1,0 +1,20 @@
+---
+title: "Git & GitHub"
+format: revealjs
+---
+
+# What is git?
+
+
+
+# Why git?
+
+
+# Let's create a repository on GitHub
+
+
+
+# Cloning
+```
+git clone git@github.com:liamblake/ds-coffee-git.git
+```
