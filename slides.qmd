@@ -3,18 +3,81 @@ title: "Git & GitHub"
 format: revealjs
 ---
 
-# What is git?
+
+## Why git?
+::: {.incremental}
+- A highly controllable backup system.
+
+- Modularisation with branches.
+
+- Collaborative work.
+:::
+
+
+## What can HDRs put under version control?
+
+::: {.incremental}
+- Thesis.
+
+- Notes and other writing.
+
+- Any code you write.
+
+- Packages arising from your project. 
+
+:::
+
+## So what is GitHub?
+
+::: {.incremental}
+
+- Online service for hosting git repositories.
+
+- (Mostly) free.
+
+- Good integration with things like Visual Studio Code and Overleaf.
+
+:::
+
+# Let's create a repository
 
 
 
-# Why git?
+## The git workflow
+
+0. (Update from remote)
+
+1. Make changes.
+
+2. `add` the changed files.
+
+3. `commit` the staged files.
+
+4. `push` the commit.
+
+# A demo
 
 
-# Let's create a repository on GitHub
+## Gitignore
+
+Anything you do not want to be tracked goes into the `.gitignore` file.
+
+. . .
+
+- Data and output
+
+- Virtual environments, e.g. `venv/`
+
+- Generated files, e.g. 
+`.aux`, `.log`, `__pycache__/`, `.RHistory`
+
+- `.DS_Store`
+
+. . . 
+
+Useful templates: [https://github.com/github/gitignore]()
 
 
 
-# Cloning
-```
-git clone git@github.com:liamblake/ds-coffee-git.git
-```
+# IDE integration
+TODO

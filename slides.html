@@ -7,7 +7,7 @@
 <link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="slides_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.251">
+  <meta name="generator" content="quarto-1.1.189">
 
   <title>Git &amp; GitHub</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -326,24 +326,75 @@
   <h1 class="title">Git &amp; GitHub</h1>
 </section>
 
-<section id="what-is-git" class="title-slide slide level1 center">
-<h1>What is git?</h1>
+<section id="why-git" class="slide level2">
+<h2>Why git?</h2>
+<div>
+<ul>
+<li class="fragment"><p>A highly controllable backup system.</p></li>
+<li class="fragment"><p>Modularisation with branches.</p></li>
+<li class="fragment"><p>Collaborative work.</p></li>
+</ul>
+</div>
+</section>
+<section id="what-can-hdrs-put-under-version-control" class="slide level2">
+<h2>What can HDRs put under version control?</h2>
+<div>
+<ul>
+<li class="fragment"><p>Thesis.</p></li>
+<li class="fragment"><p>Notes and other writing.</p></li>
+<li class="fragment"><p>Any code you write.</p></li>
+<li class="fragment"><p>Packages arising from your project.</p></li>
+</ul>
+</div>
+</section>
+<section id="so-what-is-github" class="slide level2">
+<h2>So what is GitHub?</h2>
+<div>
+<ul>
+<li class="fragment"><p>Online service for hosting git repositories.</p></li>
+<li class="fragment"><p>(Mostly) free.</p></li>
+<li class="fragment"><p>Good integration with things like Visual Studio Code and Overleaf.</p></li>
+</ul>
+</div>
+</section>
+<section>
+<section id="lets-create-a-repository" class="title-slide slide level1 center">
+<h1>Let’s create a repository</h1>
 
 </section>
-
-<section id="why-git" class="title-slide slide level1 center">
-<h1>Why git?</h1>
+<section id="the-git-workflow" class="slide level2">
+<h2>The git workflow</h2>
+<ol start="0" type="1">
+<li><p>(Update from remote)</p></li>
+<li><p>Make changes.</p></li>
+<li><p><code>add</code> the changed files.</p></li>
+<li><p><code>commit</code> the staged files.</p></li>
+<li><p><code>push</code> the commit.</p></li>
+</ol>
+</section></section>
+<section>
+<section id="a-demo" class="title-slide slide level1 center">
+<h1>A demo</h1>
 
 </section>
-
-<section id="lets-create-a-repository-on-github" class="title-slide slide level1 center">
-<h1>Let’s create a repository on GitHub</h1>
-
-</section>
-
-<section id="cloning" class="title-slide slide level1 center">
-<h1>Cloning</h1>
-<pre><code>git clone git@github.com:liamblake/ds-coffee-git.git</code></pre>
+<section id="gitignore" class="slide level2">
+<h2>Gitignore</h2>
+<p>Anything you do not want to be tracked goes into the <code>.gitignore</code> file.</p>
+<div class="fragment">
+<ul>
+<li><p>Data and output</p></li>
+<li><p>Virtual environments, e.g.&nbsp;<code>venv/</code></p></li>
+<li><p>Generated files, e.g.&nbsp; <code>.aux</code>, <code>.log</code>, <code>__pycache__/</code>, <code>.RHistory</code></p></li>
+<li><p><code>.DS_Store</code></p></li>
+</ul>
+</div>
+<div class="fragment">
+<p>Useful templates: <a href="">https://github.com/github/gitignore</a></p>
+</div>
+</section></section>
+<section id="ide-integration" class="title-slide slide level1 center">
+<h1>IDE integration</h1>
+<p>TODO</p>
 <div class="footer footer-default">
 
 </div>
