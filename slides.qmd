@@ -38,7 +38,7 @@ format: revealjs
 
 - (Mostly) free.
 
-- Good integration with things like Visual Studio Code and Overleaf.
+- Good integration with tools like Visual Studio Code and Overleaf.
 
 :::
 
