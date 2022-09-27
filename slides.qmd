@@ -11,6 +11,8 @@ format: revealjs
 - Modularisation with branches.
 
 - Collaborative work.
+
+- It's a scientific journal with minimal effort. 
 :::
 
 
@@ -25,6 +27,7 @@ format: revealjs
 
 - Packages arising from your project. 
 
+- Any config files for productivity apps, text editors, IDE's etc. 
 :::
 
 ## So what is GitHub?
@@ -79,5 +82,32 @@ Useful templates: [https://github.com/github/gitignore]()
 
 
 
-# IDE integration
-TODO
+# IDE integration (and GUI's)
+
+## GUI's 
+
+A GUI is an app we can work with Github and easily visualise what's going on.
+
+. . . 
+
+- Popular free alternative is Github Desktop.
+- A popular (and unfortunately less free) version is Gitkraken.
+
+. . . 
+
+## IDE's
+
+Most modern text editors / IDE's are extensible and include a way of integrating git and source control with them.
+
+. . . 
+
+- VScode: Gitlens.
+- RStudio: Need to turn source control on.
+- Sublime text: Several ways to implement source control.
+- Vim: Plugins to emulate the functionality in VScode.
+- Emacs: Same as vim but separate because Emacs.
+
+. . . 
+
+
+# Another demo 
